@@ -25,5 +25,5 @@ export default function getClassName(propertyInfo, value) {
     valueKey = getSafeValue(value)
   }
 
-  return `📦${className}_${valueKey}`
+  return `${className}_${valueKey}`
 }

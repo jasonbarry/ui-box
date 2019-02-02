@@ -14,7 +14,7 @@ export function set(property, value, className) {
     ) {
       const encodedValue = JSON.stringify(value)
       throw new TypeError(
-        `📦 ui-box: invalid cache value “${encodedValue}”. Only booleans, numbers and strings are supported.`
+        `ui-box: invalid cache value “${encodedValue}”. Only booleans, numbers and strings are supported.`
       )
     }
   }

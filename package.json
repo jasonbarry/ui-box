@@ -1,7 +1,7 @@
 {
-  "name": "ui-box",
+  "name": "ui-box-no-emoji",
   "version": "1.4.0",
-  "description": "Blazing Fast React UI Primitive",
+  "description": "ui-box, but without emoji prefix",
   "contributors": [
     "Jeroen Ransijn (https://twitter.com/jeroen_ransijn)",
     "Roland Warmerdam (https://roland.codes)"
@@ -9,7 +9,7 @@
   "keywords": [
     "react"
   ],
-  "repository": "segmentio/ui-box",
+  "repository": "jasonbarry/ui-box",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [

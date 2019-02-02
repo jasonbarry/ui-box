@@ -22,7 +22,7 @@ export default function expandAliases(props) {
       if (validator) {
         const result = validator(propValue)
         if (result) {
-          throw new Error(`📦 ui-box: ${result}`)
+          throw new Error(`ui-box: ${result}`)
         }
       }
     }
